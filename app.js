@@ -66,7 +66,7 @@ app.get('/people', async (req, res) => {
 });
 
 mongoose.connect(
-  'mongodb://mongodb:27017/swfavorites',
+  'mongodb://localhost:27017/swfavorites',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
